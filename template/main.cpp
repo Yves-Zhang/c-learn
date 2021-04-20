@@ -2,6 +2,7 @@
 #include <string>
 
 #include "plusFuc/plusFuc.cpp"
+#include "HppFuc/hppFuc.hpp"
 
 using namespace std;
 
@@ -21,7 +22,10 @@ int main(void){
 
 	int ret = plusFuc(1,2);
 	cout<<ret<<endl;
-	
-	system("pause");
+
+	const int res = hppFuc(1);
+
+	cout<<res<<"    hello"<<endl;
+
   return 0;
 }
