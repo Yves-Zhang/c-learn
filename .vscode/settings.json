@@ -1,6 +1,10 @@
 {
 	"files.associations": {
 		"ostream": "cpp",
-		"exception": "cpp"
+		"exception": "cpp",
+		"iosfwd": "cpp",
+		"iostream": "cpp",
+		"__bit_reference": "cpp",
+		"algorithm": "cpp"
 	}
 }
